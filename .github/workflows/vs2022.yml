@@ -3,14 +3,6 @@ name: VS2022
 on:
   push:
   pull_request:
-    paths-ignore:
-      - ".gitignore"
-      - ".gitattributes"
-      - "**.cmd"
-      - "**.md"
-      - "AUTHORS"
-      - "NEWS"
-      - "ChangeLog"
 
 env:
   WDK_URL: https://go.microsoft.com/fwlink/p/?LinkID=253170
